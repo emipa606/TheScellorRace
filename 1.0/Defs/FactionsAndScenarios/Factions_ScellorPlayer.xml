@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef Abstract="True" Name="ScellorPlayerBase">
+    <colorSpectrum>
+      <li>(64, 191, 64)</li>
+      <li>(64, 191, 129)</li>
+    </colorSpectrum>
+  </FactionDef>
+  <FactionDef Parent="ScellorPlayerBase">
+    <defName>Player_Scellor</defName>
+    <label>Scellor Colony</label>
+    <description>Imperialism, yay!</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Scellor</basicMemberKind>
+    <pawnsPlural>scellor</pawnsPlural>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Raider</li>
+      <li>Civil</li>
+      <li>Slave</li>
+      <li>Trader</li>
+      <li>Traveler</li>
+      <li>Tribal</li>
+    </backstoryCategories>
+    <leaderTitle>captain</leaderTitle>
+    <hairTags>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+    </hairTags>
+    <homeIconPath>World/ScellorCamp</homeIconPath>
+    <expandingIconTexture>World/ScellorCamp</expandingIconTexture>
+  </FactionDef>
+</Defs>
